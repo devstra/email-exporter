@@ -1,0 +1,16 @@
+{
+  "name": "mailexporter",
+  "version": "1.0.0",
+  "description": "Connects to email account via IMAP and saves each email as a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imap": "^0.8.19",
+    "mailparser": "^3.5.0"
+  }
+}
